@@ -1,0 +1,77 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / bundles
+build/
+dist/
+out/
+coverage/
+.cache/
+.parcel-cache/
+typechain/
+
+# React / CRA env files
+.env
+.env.local
+.env.*.local
+
+# Solidity / Ethereum / Smart contract tooling
+artifacts/
+cache/
+cache.json
+typechain/
+openzeppelin/
+build/contracts/
+brownie_build/
+lib/
+forge_files/
+out/
+
+# Keys / secrets
+*.key
+*.pem
+*.secret
+.secret
+keystore/
+*.keystore
+local-credentials.json
+
+# Package manager stores
+.pnpm-store/
+.npm/
+npm-packages-offline-cache/
+
+# Logs
+logs/
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python caches (if present)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Misc
+coverage/
+coverage-final.json
